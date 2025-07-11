@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Temple of Tarot - Mystical Product Discovery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cosmic-background"></div>
+    
+    <!-- Navigation Breadcrumb -->
+    <nav class="breadcrumb-nav">
+        <div class="breadcrumb-container">
+            <a href="#" class="breadcrumb-link">HOME</a>
+            <span class="breadcrumb-separator">/</span>
+            <span class="breadcrumb-current">WELCOME TO THE TEMPLE OF TAROT</span>
+        </div>
+    </nav>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Hero Section with Main Image -->
+        <section class="hero-section">
+            <div class="hero-background">
+                <img src="images/Main image.png" alt="Temple of Tarot" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="temple-title">Welcome to the Temple of Tarot</h1>
+                <p class="temple-subtitle">Let the ancient wisdom guide you to your perfect product</p>
+            </div>
+        </section>
+
+        <!-- Popup Form -->
+        <div id="tarot-form-overlay" class="form-overlay active">
+            <div class="form-container">
+                <div class="form-header">
+                    <h2>🔮 Begin Your Mystical Journey</h2>
+                    <p>Share your essence with the universe</p>
+                </div>
+                
+                <form id="tarot-form" class="mystical-form">
+                    <div class="input-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="dateOfBirth">Date of Birth</label>
+                        <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="gender">Gender</label>
+                        <select class="selector-labal" id="gender" name="gender" required>
+                            <option value="">Choose your essence...</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div class="input-glow"></div>
+                    </div>
+                    
+                    <button type="submit" class="mystical-button">
+                        <span>🌟 Generate Your Tarot 🌟</span>
+                        <div class="button-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Result Display -->
+        <div id="result-container" class="result-container">
+            <div class="card-reveal">
+                <h2 class="reveal-title">Your Destiny Card Has Been Revealed</h2>
+                
+                <div class="tarot-card-display">
+                    <div class="card-wrapper">
+                        <div id="tarot-card" class="tarot-card">
+                            <img id="card-image" src="" alt="Tarot Card" class="card-image">
+                            <div class="card-glow"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-info">
+                        <h3 id="card-name" class="card-name"></h3>
+                        <p id="card-description" class="card-description"></p>
+                        
+                        <div class="action-buttons">
+                            <a id="add-to-cart-btn" href="#" class="action-btn cart-btn">
+                                <span>🛒 Order Now</span>
+                                <div class="btn-glow"></div>
+                            </a>
+                            <!-- Buy Now Button removed -->
+                        </div>
+                        
+                        <button id="draw-again-btn" class="draw-again-btn">
+                            <span>🔄 Draw Another Card</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Animation -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="mystical-loader">
+            <div class="crystal-ball">
+                <div class="inner-light"></div>
+            </div>
+            <p class="loading-text">The universe is aligning your destiny...</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "cardCode": "TAROT_FOOL_001",
+    "cardNumber": "1",
+    "name": "The Fool",
+    "slug": "the-fool",
+    "image": "updateImage/one.jpg",
+    "description": "New beginnings, optimism, trust in life. The Fool represents a leap of faith and embracing the unknown with courage and enthusiasm.",
+    "productId": "370",
+    "addToCartLink": "https://shop.worldtrismegisto.com/shop/tarot/the-wheel-of-fortune-x/",
+    "category": "new-beginnings",
+    "keywords": ["new beginnings", "optimism", "trust", "leap of faith"]
+  },
+  {
+    "id": 2,
+    "cardCode": "TAROT_FOOL_001",
+    "cardNumber": "2",
+    "name": "Justice (VIII) Hanged Man",
+    "slug": "Justice (VIII) Hanged Man",
+    "image": "updateImage/two.jpg",
+    "description": "Stand firm in integrity with our Justice tee.Clean lines and symbolic clarity make this shirt a great choice for truth-seekers and justice warriors.",
+    "productId": "372",
+    "addToCartLink": "https://shop.worldtrismegisto.com/shop/tarot/justice-viii/",
+    "category": "new-beginnings",
+    "keywords": ["new beginnings", "optimism", "trust", "leap of faith"]
+  },
+  {
+    "id": 3,
+    "cardCode": "The Chariot (VII)",
+    "cardNumber": "3",
+    "name": "The Chariot (VII)",
+    "slug": "The Chariot (VII)",
+    "image": "updateImage/three.jpg",
+    "description": "Charge forward with confidence. The Chariot design symbolizes focus, willpower, and victory over obstacles. Ideal for go-getters and unstoppable spirits.",
+    "productId": "373",
+    "addToCartLink": "https://shop.worldtrismegisto.com/shop/tarot/the-chariot-vii/",
+    "category": "new-beginnings",
+    "keywords": ["new beginnings", "optimism", "trust", "leap of faith"]
+  },
+  {
+    "id": 4,
+    "cardCode": "The Emperor Tarot T-Shirt – Rule Your Realm",
+    "cardNumber": "4",
+    "name": "The Emperor Tarot T-Shirt – Rule Your Realm",
+    "slug": "The Emperor Tarot T-Shirt – Rule Your Realm",
+    "image": "updateImage/four.jpg",
+    "description": "Own your authority with this bold Emperor design. Strong lines and regal energy make this shirt a staple for natural leaders and those who value structure, power, and protection.",
+    "productId": "374",
+    "addToCartLink": "https://shop.worldtrismegisto.com/shop/tarot/the-emperor-tarot-t-shirt-rule-your-realm/",
+    "category": "new-beginnings",
+    "keywords": ["new beginnings", "optimism", "trust", "leap of faith"]
+  },
+  {
+    "id": 5,
+    "cardCode": "The Empress (III) The Hierophant",
+    "cardNumber": "5",
+    "name": "The Empress (III) The Hierophant",
+    "slug": "The Empress (III) The Hierophant",
+    "image": "updateImage/five.jpg",
+    "description": "Celebrate beauty, creativity, and nurturing energy. The Empress tee radiates lush, earthy vibes perfect for nature lovers, artists, and empowered feminine spirits.",
+    "productId": "375",
+    "addToCartLink": "https://shop.worldtrismegisto.com/shop/tarot/the-empress-iii/",
+    "category": "new-beginnings",
+    "keywords": ["new beginnings", "optimism", "trust", "leap of faith"]
+  }
+]
