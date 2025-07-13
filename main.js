@@ -182,18 +182,36 @@ class TarotDiscovery {
         return true;
     }
 
- selectRandomCard() {
+//  selectRandomCard() {
+//     if (this.tarotCards.length === 0) {
+//         throw new Error('No tarot cards available');
+//     }
+
+//     const seed = this.generateUserSeed();
+//     const timeSeed = Date.now().toString().split('').reverse().join('').slice(0, 5);
+//     const combinedSeed = seed + parseInt(timeSeed);
+    
+//     const randomIndex = combinedSeed % this.tarotCards.length;
+//     this.currentCard = this.tarotCards[randomIndex];
+//     return this.currentCard;
+// }
+selectRandomCard() {
     if (this.tarotCards.length === 0) {
         throw new Error('No tarot cards available');
     }
 
-    const seed = this.generateUserSeed();
-    const timeSeed = Date.now().toString().split('').reverse().join('').slice(0, 5);
-    const combinedSeed = seed + parseInt(timeSeed);
-    
-    const randomIndex = combinedSeed % this.tarotCards.length;
-    this.currentCard = this.tarotCards[randomIndex];
-    return this.currentCard;
+    // Get all available IDs
+    const availableIds = this.tarotCards.map(card => card.id);
+
+    // Pick a truly random index
+    const randomIndex = Math.floor(Math.random() * availableIds.length);
+
+    // Find card with that ID
+    const selectedId = availableIds[randomIndex];
+    const card = this.tarotCards.find(card => card.id === selectedId);
+
+    this.currentCard = card;
+    return card;
 }
 
 
