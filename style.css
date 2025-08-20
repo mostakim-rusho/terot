@@ -269,7 +269,7 @@ body {
 .form-header h2 {
     font-family: 'Cinzel Decorative', serif;
     font-size: 1.8rem;
-    color: #ffd700;
+    color: #F4B633;
     margin-bottom: 0.5rem;
 }
 
@@ -287,7 +287,7 @@ body {
 .input-group label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #ffd700;
+    color: #F4B633;
     font-weight: 500;
     font-size: 0.95rem;
 }
