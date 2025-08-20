@@ -224,8 +224,8 @@ body {
 }
 
 .form-container {
-    background: linear-gradient(135deg, rgba(42, 24, 16, 0.95), rgba(74, 14, 58, 0.95));
-    border: 2px solid #ffd700;
+    background: #241413;
+    border: 2px solid #CC9852;
     border-radius: 20px;
     padding: 2.5rem;
     max-width: 500px;
@@ -236,6 +236,7 @@ body {
     animation: modalSlideIn 0.5s ease-out;
     position: relative;
     overflow: hidden;
+    max-height: 700px;
 }
 
 .form-container::before {
@@ -344,10 +345,10 @@ body {
 .mystical-button {
     width: 100%;
     padding: 18px;
-    border: none;
+    border: 2px solid #F4B633;
     border-radius: 15px;
-    background: linear-gradient(45deg, #8b0000, #dc143c, #8b0000);
-    color: #ffd700;
+    background: linear-gradient(to right, #5B2C10, #CC9852, #5B2C10);
+    color: #F4B633;
     font-family: 'Cinzel Decorative', serif;
     font-size: 1.1rem;
     font-weight: 700;
@@ -363,7 +364,7 @@ body {
     box-shadow: 0 10px 30px rgba(220, 20, 60, 0.4);
 }
 
-.button-glow {
+/* .button-glow {
     position: absolute;
     top: -50%;
     left: -50%;
@@ -376,7 +377,7 @@ body {
 
 .mystical-button:hover .button-glow {
     animation: buttonSweep 0.6s ease;
-}
+} */
 
 @keyframes buttonSweep {
     0% { transform: translateX(-100%) rotate(45deg); }
