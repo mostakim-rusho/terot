@@ -240,9 +240,7 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
-  align-items: flex-start; /* 👈 উপরে না আটকে থেকে একটু নিচ থেকে শুরু হবে */
-  padding: 40px 0; /* 👈 উপরে-নিচে breathing space */
-  overflow-y: auto; /* 👈 ছোট screen এ স্ক্রল করা যাবে */
+
 }
 
 .form-overlay.active {
@@ -254,7 +252,9 @@ body {
   background: #241413;
   border: 2px solid #cc9852;
   border-radius: 20px;
-  margin-top: 130px;
+  max-height: 750px;
+  margin-top: 50px;
+
   padding: 2rem;
   max-width: 500px;
   width: 90%;
@@ -265,7 +265,7 @@ body {
   overflow: hidden;
 }
 
-.form-container::before {
+/* .form-container::before {
   content: "";
   position: absolute;
   top: -50%;
@@ -280,9 +280,9 @@ body {
   );
   animation: rotate 10s linear infinite;
   z-index: -1;
-}
+} */
 
-@keyframes modalSlideIn {
+/* @keyframes modalSlideIn {
   0% {
     transform: scale(0.7) translateY(-50px);
     opacity: 0;
@@ -291,16 +291,16 @@ body {
     transform: scale(1) translateY(0);
     opacity: 1;
   }
-}
+} */
 
-@keyframes rotate {
+/* @keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 .form-header {
   text-align: center;
@@ -309,20 +309,20 @@ body {
 
 .form-header h2 {
   font-family: "Cinzel Decorative", serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #f4b633;
-  margin-bottom: 0.5rem;
+
 }
 
 .form-header p {
   color: #c9b037;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 /* Form Inputs */
 .input-group {
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .input-group label {
@@ -330,12 +330,12 @@ body {
   margin-bottom: 0.5rem;
   color: #f4b633;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .input-group input {
   width: 100%;
-  padding: 15px;
+  padding: 12px;
   border: 2px solid rgba(255, 215, 0, 0.3);
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.3);
@@ -346,7 +346,7 @@ body {
 }
 .input-group select {
   width: 100%;
-  padding: 15px;
+  padding: 12px;
   border: 2px solid rgba(255, 215, 0, 0.3);
   border-radius: 10px;
   background: black;
@@ -385,7 +385,7 @@ body {
 /* Mystical Button */
 .mystical-button {
   width: 100%;
-  padding: 18px;
+  padding: 15px;
   border: 2px solid #f4b633;
   border-radius: 15px;
   background: linear-gradient(to right, #5b2c10, #cc9852, #5b2c10);
@@ -822,7 +822,7 @@ body {
   }
 
   .mystical-button {
-    padding: 15px;
+    padding: 12px;
     font-size: 1rem;
   }
 }
